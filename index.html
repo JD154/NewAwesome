@@ -20,7 +20,7 @@
                         </div>
                     </div>
                     <div class="row">
-                        <div class="col s12">
+                        <div class="col s12 hide-on-small-only">
                             <a class="black-text nav-links" href="#">Home</a>
                             <a class="black-text nav-links" href="#">Features</a>
                             <a class="black-text nav-links" href="#">About</a>
@@ -46,18 +46,20 @@
                 </div>
                 <div class="row">
                     <p class="header-p center">SIGN UP FOR A FREE 30 DAY TRIAL</p>
-                    <div class="input-field col s6 l6">
-                        <input id="first_name" type="text" class="validate">
-                        <label for="first_name">First Name</label>
-                    </div>
-                    <div class="input-field col s6 l6">
-                        <input id="last_name" type="text" class="validate">
-                        <label for="last_name">Last Name</label>
+                    <div class="input-form-wrapper">
+                        <div class="input-field col s12 l6">
+                                <input id="first_name" type="text" class="validate">
+                                <label for="first_name">First Name</label>
+                            </div>
+                            <div class="input-field col s12 l6">
+                                <input id="last_name" type="text" class="validate">
+                                <label for="last_name">Last Name</label>
+                        </div>
                     </div>
                 </div>
-                <div class="row">
-                    <div class="col s6 l12">
-                        <p class="center-align"><a class="waves-effect waves-light btn">Start Free Trial</a></p>
+                <div class="row center">
+                    <div class="col s12 l12">
+                        <a class="waves-effect waves-light btn">Start Free Trial</a>
                     </div>
                 </div>
             </div>
@@ -66,66 +68,51 @@
     <section class="feature-section">
         <div class="container">
             <h5 class="center">Awesome is an amazing landing page brought to you on everyone's favorite learning
-                platform, Udemy. Imagine what is next.</h5>
+                platform. Imagine what is next.</h5>
             <div class="row">
-                <div class="col s12 l4">
-                    <div class="row">
-                        <div class="col s12 m7 l12">
-                            <div class="card">
-                                <div class="card-image">
-                                    <img src="/images/Couple.jpg">
-                                    <span class="card-title ">Mobile First, Always</span>
-                                </div>
-                                <div class="card-content">
-                                    <p>I am a very simple card. I am good at containing small bits of information.
-                                        I am convenient because I require little markup to use effectively.</p>
-                                </div>
-                            </div>
+                <div class="col s12 m4 l4">
+                    <div class="card">
+                        <div class="card-image">
+                            <img src="/images/Couple.jpg">
+                            <span class="card-title ">Mobile First, Always</span>
+                        </div>
+                        <div class="card-content">
+                            <p>I am a very simple card. I am good at containing small bits of information. I am convenient because I require little markup to use effectively.</p>
                         </div>
                     </div>
                 </div>
-                <div class="col s12 l4">
-                    <div class="row">
-                        <div class="col s12 m7 l12">
-                            <div class="card">
-                                <div class="card-image">
-                                    <img src="/images/Girlphone.jpg">
-                                    <span class="card-title">HTML5 and CSS3</span>
-                                </div>
-                                <div class="card-content">
-                                    <p>I am a very simple card. I am good at containing small bits of information.
-                                        I am convenient because I require little markup to use effectively.</p>
-                                </div>
-                            </div>
+                <div class="col s12 m4 l4">
+                    <div class="card">
+                        <div class="card-image">
+                            <img src="/images/Girlphone.jpg">
+                            <span class="card-title">HTML5 and CSS3</span>
+                        </div>
+                        <div class="card-content">
+                            <p>I am a very simple card. I am good at containing small bits of information. I am convenient because I require little markup to use effectively.</p>
                         </div>
                     </div>
                 </div>
-                <div class="col s12 l4">
-                    <div class="row">
-                        <div class="col s12 m7 l12">
-                            <div class="card">
-                                <div class="card-image">
-                                    <img src="/images/Couple.jpg">
-                                    <span class="card-title">Social design</span>
-                                </div>
-                                <div class="card-content">
-                                    <p>I am a very simple card. I am good at containing small bits of information.
-                                        I am convenient because I require little markup to use effectively.</p>
-                                </div>
-                            </div>
+                <div class="col s12 m4 l4">
+                    <div class="card">
+                        <div class="card-image">
+                            <img src="/images/Couple.jpg">
+                            <span class="card-title">Social design</span>
+                        </div>
+                        <div class="card-content">
+                            <p>I am a very simple card. I am good at containing small bits of information. I am convenient because I require little markup to use effectively.</p>
                         </div>
                     </div>
                 </div>
             </div>
         </div>
     </section>
-    <section class="showcase1-container grey lighten-3">
+    <section class="showcase-container grey lighten-3 sm-relative">
         <div class="container">
             <div class="row">
-                <div class="col l6 center">
+                <div class="col l6 center sm-absolute">
                     <img class="showcase-img" src="/images/iphone_xs.png" alt="">
                 </div>
-                <div class="col l6 showcase1-wrapper">
+                <div class="col s12 l6 showcase1-wrapper">
                     <h3 class="center-align showcase-text">Yes, it even looks good on an iPhone</h3>
                     <p class="center-align showcase-para">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
                         do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis
@@ -134,16 +121,16 @@
             </div>
         </div>
     </section>
-    <section class="showcase2-container">
+    <section class="showcase2-container sm-relative">
         <div class="container">
             <div class="row">
-                <div class="col l6 showcase2-wrapper">
+                <div class="col s12 l6 showcase2-wrapper">
                     <h3 class="center-align showcase-text">How about iPad? Yup that too!</h3>
                     <p class="center-align showcase-para">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
                         do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis
                         nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
                 </div>
-                <div class="col l6 center">
+                <div class="col l6 center sm-absolute">
                     <img class="showcase-img" src="/images/ipad_pro.png" alt=""">
                 </div>
             </div>
@@ -154,14 +141,14 @@
             <div class="col l12 center">
                 <h2 class="white-text">What are you waiting for?</h2>
                 <p class="white-text">Get started today and try for free - No credit card required</p>
-                <p class="valign-wrapper nav-buttons"><a class="waves-effect waves-light btn">Try today</a></p>
+                <a class="waves-effect waves-light btn">Try today</a></p>
             </div>
         </div>
     </section>
     <section class="signup-wrapper">
         <div class="container">
             <div class="row">
-                <div class="col l6">
+                <div class="col s12 l6 center">
                     <div class="testimonial-wrapper">
                         <h5>Hear what our fans have to say about awesome</h5>
                         <p>"I learned how to build this website in an amazing online course on Udemy. I couldn't be happier!"
@@ -172,33 +159,33 @@
                         
                     </div>
                 </div>
-                <div class="col l6">
+                <div class="col s12 l6">
                     <div class="form-wrapper">
                         <div class="signup-form grey lighten-3 z-depth-2">
                             <div class="center row">
-                                <div class="col l12">
+                                <div class="col s12 l12">
                                     <h6>SIGN UP FOR A FREE 30 DAY TRIAL</h6>
                                 </div>
                             </div>
                             <div class="row">
-                                <div class="input-field col s6 l12">
+                                <div class="input-field col s12 l12">
                                     <input id="first_name_2" type="text" class="validate">
                                     <label for="first_name_2">First Name</label>
                                 </div>
                             </div>
                             <div class="row">
-                                <div class="input-field col s6 l12">
+                                <div class="input-field col s12 l12">
                                     <input id="last_name_2" type="text" class="validate">
                                     <label for="last_name_2">Last Name</label>
                                 </div>
                             </div>
                             <div class="row center">
-                                <div class="col l12">
+                                <div class="col s12 l12">
                                     <a class="waves-effect waves-light btn">Try today</a>
                                 </div>
                             </div>
                             <div class="row">
-                                <div class="col l12">
+                                <div class="col s12 l12">
                                     <p class="form-policy">* We don't share your personal info with anyone. Check out our Privacy Policy for more information.</p>
                                 </div>
                             </div>
@@ -210,13 +197,13 @@
     </section>
     <footer class="footer-wrapper">
         <div class="row center footer-social-wrapper">
-            <div class="col l4">
+            <div class="col s4 l4">
                 <i class="fab fa-instagram footer-icon"></i>
             </div>
-            <div class="col l4">
+            <div class="col s4 l4">
                 <i class="fab fa-twitter-square footer-icon"></i>
             </div>
-            <div class="col l4">
+            <div class="col s4 l4">
                 <i class="fab fa-facebook-square footer-icon"></i>
             </div>
         </div>

@@ -1,0 +1,89 @@
+@media screen and (max-width: 480px) {
+
+    #index-banner{
+        height: 500px;
+    }
+    .container-short{
+        width: 100%;
+    }
+
+    .header-title{
+        font-size: 34px;
+        padding-top: 0;
+    }
+
+    .header-subtitle{
+        width: 70%;
+        margin: 0 auto;
+        font-size: 12px;
+    }
+
+    .play-button{
+        margin: 40px 0;
+    }
+
+    .input-form-wrapper{
+        width: 90%;
+        margin: 0 auto;
+    }
+
+    .showcase-container{
+        display: flex;
+        height: 640px;
+    }
+
+    .showcase2-container{
+        display: flex;
+        height: 500px;
+        margin-bottom: 20px;
+    }
+
+    .showcase1-wrapper, .showcase2-wrapper, .showcase-text, .showcase-para{
+        margin: 0 auto;
+    }
+
+    .showcase-img{
+        max-width: 350px;
+    }
+
+    .sm-relative{
+        position: relative;
+    }
+
+    .sm-absolute{
+        position: absolute;
+        bottom: 0;
+    }
+
+    .call-to-action{
+        height: 200px;
+    }
+
+    .call-to-action h2{
+        margin: 0 auto;
+        font-size: 34px;
+    }
+    
+    .call-to-action p{
+        font-size: 12px;
+    }
+
+    .testimonial-wrapper, .signup-form{
+        width: 100%;
+        margin: 0 auto;
+    }
+    
+    .form-wrapper{
+        width: 100%;
+        margin: 0 auto;
+        margin-top: 15px;
+    }
+}
+
+@media screen and (max-width: 768px) {
+
+}
+
+@media screen and (max-width: 1024px) {
+
+}

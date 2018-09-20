@@ -1,8 +1,13 @@
 @media screen and (max-width: 480px) {
 
-    #index-banner{
-        height: 500px;
+    .sm-logo-center{
+        width: 100%;
     }
+
+    #index-banner{
+        height: 550px;
+    }
+
     .container-short{
         width: 100%;
     }
@@ -77,6 +82,12 @@
         width: 100%;
         margin: 0 auto;
         margin-top: 15px;
+    }
+
+    .footer-copyright{
+        position: static;
+        margin-top: 30px;
+        width: 100%;
     }
 }
 

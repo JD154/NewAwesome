@@ -23,7 +23,7 @@ section{
 }
 
 .nav-wrapper i{
-    padding-top: 15px;
+    padding: 15px;
 }
 
 .logo-img{
@@ -175,7 +175,8 @@ section{
 }
 
 .testimonial-wrapper strong{
-    float: left;
+    float: right;
+    margin-bottom: 15px;
 }
 
 .form-wrapper{
